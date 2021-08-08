@@ -1,114 +1,131 @@
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        background: #f0f0f0;
-    }
-    
-    nav {
-        width: 100%;
-        height: 60px;
-        background: #344051;
-    }
-    
-    .logo {
-        color: #fff;
-        font-size: 28px;
-        line-height: 60px;
-        padding-left: 388px;
-        float: left;
-    }
-    
-    .menu {
-        float: left;
-        padding-left: 432px;
-    }
-    
-    .menu li {
-        float: left;
-        line-height: 60px;
-        color: #fff;
-        margin-right: 40px;
-        font-size: 16px;
-        text-transform: uppercase;
-    }
-    
-    .main {
-        width: 100%;
-        height: calc(100% - 60px);
-        background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.png) center/cover no-repeat;
-    }
-    
-    .title__container {
-        float: left;
-        margin: 432px 0px 0px 404px;
-        color: #2c384a;
-        text-align: center;
-    }
-    
-    .title__container h1 {
-        font-size: 60px;
-        font-weight: bold;
-    }
-    
-    .title__container h4 {
-        margin-top: 40px;
-        font-size: 22px;
-        color: #79818d;
-    }
-    
-    .title__container input {
-        height: 40px;
-        text-align: center;
-        border: 2px solid;
-        background: none;
-        border-radius: 5px;
-        color: #79818d;
-        padding: 0px 16px;
-        margin-top: 58px;
-        margin: 58px 14px;
-    }
-    
-    .submit h1 {
-        margin-top: 110px;
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        height: 898;
-        color: #263244;
-    }
-    
-    .submit img {
-        border: 5px;
-        border-radius: 50%;
-        width: 200px;
-        margin: 10px;
-        background-color: #ececf0;
-        margin: 100px 862px;
-    }
-    
-    .submit h3 {
-        text-align: center;
-        width: 50%;
-        font-weight: normal;
-        margin-left: auto;
-        margin-right: auto;
-        height: 44px;
-    }
-    
-    .submit input {
-        margin: 40px 50%;
-        height: 40px;
-        text-align: center;
-        border: 2px solid;
-        border-radius: 5px;
-        color: #6f707e;
-        font-size: 16px;
-        padding: 8px 16px;
-        margin-bottom: 110px;
-        background: none;
-    }
-    
-    .info {
-        background: url(../img/bg3.png) center no-repeat;
-        width: 100%;
-        height: 100%;
-    }
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    background: #f0f0f0;
+                }
+                
+                nav {
+                    width: 100%;
+                    height: 60px;
+                    background: #344051;
+                }
+                
+                .logo {
+                    color: #fff;
+                    font-size: 28px;
+                    line-height: 60px;
+                    padding-left: 388px;
+                    float: left;
+                }
+                
+                .menu {
+                    float: left;
+                    padding-left: 432px;
+                }
+                
+                .menu li {
+                    float: left;
+                    line-height: 60px;
+                    color: #fff;
+                    margin-right: 40px;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+                
+                .main {
+                    width: 100%;
+                    height: calc(100% - 60px);
+                    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.png) center/cover no-repeat;
+                }
+                
+                .title__container {
+                    float: left;
+                    margin: 432px 0px 0px 404px;
+                    color: #2c384a;
+                    text-align: center;
+                }
+                
+                .title__container h1 {
+                    font-size: 60px;
+                    font-weight: bold;
+                }
+                
+                .title__container h4 {
+                    margin-top: 40px;
+                    font-size: 22px;
+                    color: #79818d;
+                }
+                
+                .title__container input {
+                    height: 40px;
+                    text-align: center;
+                    border: 2px solid;
+                    background: none;
+                    border-radius: 5px;
+                    color: #79818d;
+                    padding: 0px 16px;
+                    margin-top: 58px;
+                    margin: 58px 14px;
+                }
+                
+                .submit h1 {
+                    margin-top: 110px;
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: #263244;
+                }
+                
+                .submit img {
+                    border: 5px;
+                    border-radius: 50%;
+                    width: 200px;
+                    margin: 10px;
+                    background-color: #ececf0;
+                    margin: 100px 862px;
+                }
+                
+                .submit h3 {
+                    text-align: center;
+                    width: 50%;
+                    font-weight: normal;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 44px;
+                }
+                
+                .submit input {
+                    margin: 40px 50%;
+                    height: 40px;
+                    text-align: center;
+                    border: 2px solid;
+                    border-radius: 5px;
+                    color: #6f707e;
+                    font-size: 16px;
+                    padding: 8px 16px;
+                    margin-bottom: 50px;
+                    background: none;
+                }
+                
+                .enumeration {
+                    background: url(../img/bg4.png) center/cover no-repeat;
+                    width: auto;
+                    height: 100%;
+                    padding-top: 107px;
+                }
+                
+                .heading h1 {
+                    margin-top: 110px;
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: #263244;
+                    margin-bottom: 140px;
+                }
+                
+                .info {
+                    float: left;
+                    margin: 0px 90px;
+                    padding-left: 90px;
+                    padding-right: 90px;
+                    text-align: center;
+                }
